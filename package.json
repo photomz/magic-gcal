@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "parcel watch manifest.json --host localhost --config @parcel/config-webextension",
+    "build": "parcel build manifest.json --config @parcel/config-webextension"
+  },
+  "dependencies": {
+    "@parcel/config-webextension": "^2.11.0",
+    "@parcel/transformer-webextension": "^2.11.0",
+    "parcel": "^2.11.0",
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-vue": "2.11.0"
+  }
+}
